@@ -1,0 +1,20 @@
+Source: hunspell-be
+Section: text
+Priority: optional
+Maintainer: Hleb Valoshka <375gnu@gmail.com>
+Build-Depends: debhelper (>= 8)
+Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
+Standards-Version: 3.9.3
+Homepage: http://spell-be.sourceforge.net/
+
+Package: hunspell-be
+Architecture: all
+Depends: dictionaries-common (>= 1.0.0), ${misc:Depends}
+Provides: hunspell-dictionary, hunspell-dictionary-be
+Suggests: iceape-browser | iceweasel | icedove, libreoffice
+Conflicts: openoffice.org (<= 1.0.3-2)
+Description: Belarusian dictionary for hunspell and academic orthography
+ This dictionary contains Belarusian dictionary for the hunspell
+ spell-checker currently supported by LibreOffice and Mozilla.
+ .
+ This dictionary is for the recent academic orthography.

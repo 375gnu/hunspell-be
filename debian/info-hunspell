@@ -1,0 +1,7 @@
+Language: беларуская (russian)
+Hash-Name: be_BY
+Emacsen-Name: belarusian
+Casechars: [АБВГДЕЁЖЗІЙКЛМНОПРСТУЎФХЦЧШЬЫЭЮЯабвгдеёжзійклмнопрстуўфхцчшьыэюя]
+Not-Casechars: [^АБВГДЕЁЖЗІЙКЛМНОПРСТУЎФХЦЧШЬЫЭЮЯабвгдеёжзійклмнопрстуфхцчшьыэюя]
+Otherchars: ^$
+Coding-System: utf-8
