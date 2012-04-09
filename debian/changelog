@@ -1,5 +1,5 @@
-hunspell-be (0.52-1) UNRELEASED; urgency=low
+hunspell-be (0.52-1) unstable; urgency=low
 
-  * Initial release. (Closes: #XXXXXX)
+  * Initial release. (Closes: #668205)
 
  -- Hleb Valoshka <375gnu@gmail.com>  Wed, 04 Apr 2012 19:06:28 +0300
