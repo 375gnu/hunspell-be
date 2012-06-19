@@ -14,7 +14,7 @@ Provides: hunspell-dictionary, hunspell-dictionary-be
 Suggests: iceape-browser | iceweasel | icedove, libreoffice
 Conflicts: openoffice.org (<= 1.0.3-2)
 Description: Belarusian dictionary for hunspell and academic orthography
- This dictionary contains Belarusian dictionary for the hunspell
+ This package contains Belarusian dictionary for the hunspell
  spell-checker currently supported by LibreOffice and Mozilla.
  .
  This dictionary is for the recent academic orthography.
