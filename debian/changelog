@@ -1,3 +1,10 @@
+hunspell-be (0.53-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fix package description. (Closes: #672517)
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Tue, 19 Jun 2012 20:33:51 +0300
+
 hunspell-be (0.52-1) unstable; urgency=low
 
   * Initial release. (Closes: #668205)
