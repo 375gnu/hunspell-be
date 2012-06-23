@@ -1,9 +1,13 @@
 hunspell-be (0.53-1) unstable; urgency=low
 
+  [Hleb Valoshka]
   * New upstream release.
   * Fix package description. (Closes: #672517)
 
- -- Hleb Valoshka <375gnu@gmail.com>  Tue, 19 Jun 2012 20:33:51 +0300
+  [Dmitry Borodaenko]
+  * Updated debian/watch.
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Sat, 23 Jun 2012 14:37:57 +0300
 
 hunspell-be (0.52-1) unstable; urgency=low
 
