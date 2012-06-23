@@ -1,3 +1,10 @@
+hunspell-be (0.53-2) unstable; urgency=low
+
+  [Dmitry Borodaenko wearing brown paper bag]
+  * Revert debian/watch change.
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Sat, 23 Jun 2012 16:21:44 +0300
+
 hunspell-be (0.53-1) unstable; urgency=low
 
   [Hleb Valoshka]
