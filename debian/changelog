@@ -1,3 +1,9 @@
+hunspell-be (0.53-3) unstable; urgency=low
+
+  * Fix language name in debian/info-hunspell.
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Tue, 03 Jul 2012 11:15:57 +0300
+
 hunspell-be (0.53-2) unstable; urgency=low
 
   [Dmitry Borodaenko wearing brown paper bag]
