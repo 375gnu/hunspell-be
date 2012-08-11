@@ -1,12 +1,12 @@
 # Belarusian affix file and dictionaries
-# Version number: 0.53
+# Version number: 0.54
 # Copyright: Mikalai Udodau (C) 2010-2012
 # License: Creative Commons Attribution-ShareAlike
 # See http://creativecommons.org/licenses/by-sa/3.0/
 SET UTF-8
 TRY аяоёйцукжеэнгшўзхіыпрлдюьбвтмсчфАЯОЁЙЦУКЖЕЭНГШЎЗХІЫПРЛДЮЬБВТМСЧФ'
 WORDCHARS '
-REP 35
+REP 36
 REP а у 
 REP ваў ў 
 REP дзь д 
@@ -35,6 +35,7 @@ REP у 'ю
 REP ўся ў 
 REP ц дс 
 REP ца ь 
+REP ш ін 
 REP ь ' 
 REP ье а 
 REP ьг ы 
