@@ -1,12 +1,12 @@
 # Belarusian affix file and dictionaries
-# Version number: 0.54
+# Version number: 0.55
 # Copyright: Mikalai Udodau (C) 2010-2012
 # License: Creative Commons Attribution-ShareAlike
 # See http://creativecommons.org/licenses/by-sa/3.0/
 SET UTF-8
 TRY аяоёйцукжеэнгшўзхіыпрлдюьбвтмсчфАЯОЁЙЦУКЖЕЭНГШЎЗХІЫПРЛДЮЬБВТМСЧФ'
 WORDCHARS '
-REP 36
+REP 40
 REP а у 
 REP ваў ў 
 REP дзь д 
@@ -16,13 +16,17 @@ REP еньва яне
 REP ецца юць 
 REP еч юш 
 REP з сы 
+REP зі ы 
 REP ій яў 
 REP іра а 
+REP іра я 
 REP іру у 
+REP іру ю 
 REP іся і 
 REP йо ё 
 REP Йо Ё 
 REP к каў 
+REP каў к 
 REP ке цы 
 REP наў н 
 REP с на 
@@ -184,7 +188,7 @@ SFX H а у а
 SFX H е ю е 
 SFX H ё ю ё 
 SFX H й ю й 
-SFX H к ку [еійлнрсуўцыэюя]к 
+SFX H к ку [еёійлнрсуўцыэюя]к 
 SFX H ак ку [бджзлмнпрстчш]ак 
 SFX H вак ўку вак 
 SFX H ок ку [бджзлмнпрстчш]ок 
@@ -205,7 +209,7 @@ SFX H й ем й
 SFX H ь ем ь 
 SFX H у ам у 
 SFX H ў вам ў 
-SFX H к кам [еійлнорсуўцыэюя]к 
+SFX H к кам [еёійлнорсуўцыэюя]к 
 SFX H ак кам [бджзлмнпрстчш]ак 
 SFX H вак ўкам вак 
 SFX H ц цам [аірыья]ц 
