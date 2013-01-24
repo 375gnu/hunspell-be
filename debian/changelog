@@ -1,8 +1,8 @@
-hunspell-be (0.54-1) UNRELEASED; urgency=low
+hunspell-be (0.55-1) UNRELEASED; urgency=low
 
   * New upstream release.
 
- -- Hleb Valoshka <375gnu@gmail.com>  Sat, 11 Aug 2012 20:08:55 +0300
+ -- Hleb Valoshka <375gnu@gmail.com>  Thu, 24 Jan 2013 20:41:59 +0300
 
 hunspell-be (0.53-3) unstable; urgency=low
 
