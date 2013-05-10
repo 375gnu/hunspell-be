@@ -4,7 +4,7 @@ Priority: optional
 Maintainer: Hleb Valoshka <375gnu@gmail.com>
 Build-Depends: debhelper (>= 8)
 Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
-Standards-Version: 3.9.3
+Standards-Version: 3.9.4
 Homepage: http://spell-be.sourceforge.net/
 
 Package: hunspell-be
