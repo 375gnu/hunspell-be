@@ -1,5 +1,5 @@
 # Belarusian affix file and dictionaries
-# Version number: 0.55
+# Version number: 0.56
 # Copyright: Mikalai Udodau (C) 2010-2012
 # License: Creative Commons Attribution-ShareAlike
 # See http://creativecommons.org/licenses/by-sa/3.0/
@@ -177,7 +177,7 @@ SFX O ок ка [бджзлмнпрстчш]ок
 SFX O вок ўка вок 
 SFX O о а о 
 SFX O ў ва ў 
-SFX O ц ца [аірыья]ц 
+SFX O ц ца [аінрыья]ц 
 SFX O ец ца [бзмнпсф]ец 
 SFX O вец ўца вец 
 SFX O лец льца лец 
