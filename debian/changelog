@@ -1,9 +1,9 @@
-hunspell-be (0.56-1) UNRELEASED; urgency=low
+hunspell-be (0.56-1) unstable; urgency=low
 
   * New upstream release.
-  * Bump Standarts-Version to 3.9.4.
+  * Bump Standarts-Version to 3.9.6 (no changes).
 
- -- Hleb Valoshka <375gnu@gmail.com>  Fri, 10 May 2013 09:41:58 +0300
+ -- Hleb Valoshka <375gnu@gmail.com>  Mon, 27 Oct 2014 21:33:58 +0300
 
 hunspell-be (0.53-3) unstable; urgency=low
 
