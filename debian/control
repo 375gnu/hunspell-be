@@ -11,7 +11,7 @@ Package: hunspell-be
 Architecture: all
 Depends: dictionaries-common (>= 1.0.0), ${misc:Depends}
 Provides: hunspell-dictionary, hunspell-dictionary-be
-Suggests: iceape-browser | iceweasel | icedove, libreoffice
+Suggests: firefox | firefox-esr | icedove, libreoffice
 Conflicts: openoffice.org (<= 1.0.3-2)
 Description: Belarusian dictionary for hunspell and academic orthography
  This package contains Belarusian dictionary for the hunspell
