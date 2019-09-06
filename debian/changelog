@@ -1,17 +1,12 @@
-hunspell-be (0.57-1) unstable; urgency=medium
+hunspell-be (0.58-1) unstable; urgency=medium
 
   * New upstream release.
-  * Bump Standards-Version to 3.9.8 (no changes).
-  * Update Suggests header to show current browsers.
+  * Depend on debhelper-compat 12 instead of debhelper and remove
+    debian/compat.
+  * Bump Standards-Version to 4.4.0 (no changes).
+  * Update Suggests header with current frefox and thunderbird names.
 
- -- Hleb Valoshka <375gnu@gmail.com>  Tue, 12 Jul 2016 00:54:44 +0300
-
-hunspell-be (0.56-1) unstable; urgency=low
-
-  * New upstream release.
-  * Bump Standarts-Version to 3.9.6 (no changes).
-
- -- Hleb Valoshka <375gnu@gmail.com>  Mon, 27 Oct 2014 21:33:58 +0300
+ -- Hleb Valoshka <375gnu@gmail.com>  Fri, 06 Sep 2019 14:07:25 +0300
 
 hunspell-be (0.53-3) unstable; urgency=low
 
