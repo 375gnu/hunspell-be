@@ -1,3 +1,10 @@
+hunspell-be (0.59-1) unstable; urgency=medium
+
+  * d/watch: update source archive location
+  * New upstream version 0.59
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Sat, 13 May 2023 11:14:54 +0300
+
 hunspell-be (0.58-1) unstable; urgency=medium
 
   * New upstream release.
