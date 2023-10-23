@@ -2,7 +2,8 @@ Source: hunspell-be
 Section: text
 Priority: optional
 Maintainer: Hleb Valoshka <375gnu@gmail.com>
-Build-Depends: debhelper-compat (= 12)
+Build-Depends: debhelper-compat (= 12),
+               convert-bdic
 Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
 Standards-Version: 4.4.0
 Homepage: http://spell-be.sourceforge.net/

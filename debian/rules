@@ -3,6 +3,20 @@
 %:
 	dh $@
 
+override_dh_auto_build:
+	# Run the default commands.
+	dh_auto_build
+
+	# Generate the binary .bdic file.
+	/usr/bin/convert-bdic be_BY.dic be_BY.bdic
+
 override_dh_auto_install:
 	installdeb-myspell --srcdir=.
 	installdeb-hunspell
+
+override_dh_auto_clean:
+	# Run the default commands.
+	dh_auto_clean
+
+	# Remove the generated binary .bdic file.
+	rm -f be_BY.bdic
