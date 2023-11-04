@@ -1,4 +1,4 @@
-hunspell-be (0.59-2) UNRELEASED; urgency=medium
+hunspell-be (0.60-1) UNRELEASED; urgency=medium
 
   [ Soren Stoutner ]
   * debian/control: Build-depends on convert-bdic. (Closes: #1020480)
@@ -6,7 +6,11 @@ hunspell-be (0.59-2) UNRELEASED; urgency=medium
   * debian/hunspell-be.install: Install the .bdic binary dictionary to
     /usr/share/hunspell-bdic/.
 
- -- Hleb Valoshka <375gnu@gmail.com>  Sat, 13 May 2023 11:14:54 +0300
+  [ Hleb Valoshka ]
+  * Update d/watch to return only the latest release
+  * New upstream version 0.60
+
+ -- Hleb Valoshka <375gnu@gmail.com>  Sat, 04 Nov 2023 11:45:36 +0200
 
 hunspell-be (0.59-1) unstable; urgency=medium
 
