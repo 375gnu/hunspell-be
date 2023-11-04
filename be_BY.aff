@@ -1,13 +1,27 @@
 # Belarusian affix file and dictionaries
-# Version number: 0.59
-# Copyright: Mikalai Udodau (C) 2010-2022
+# Version number: 0.60
+# Copyright: Mikalai Udodau (C) 2010-2023
 # License: Creative Commons Attribution-ShareAlike
 # See http://creativecommons.org/licenses/by-sa/3.0/
 SET UTF-8
 TRY анісырлеокятдувзмпцўбгчьшхйэжюёАНПЯІСКТВМДЗГУЛБфШЁХРЧЦ'ЮЖОФЎЭЕЫЙЬ
 KEY йцукенгшўзх'|фывапролджэ|ячсмітьбю.
-WORDCHARS '
+WORDCHARS '’ʼ
+ICONV 12
+ICONV ’ '
+ICONV ʼ '
+ICONV а́ а
+ICONV о́ о
+ICONV у́ у
+ICONV ы́ ы
+ICONV э́ э
+ICONV і́ і
+ICONV е́ е
+ICONV ё́ ё
+ICONV ю́ ю
+ICONV я́ я
 REP 47
+REP а у 
 REP ваў ў 
 REP дзь д 
 REP ей ёў 
@@ -24,8 +38,6 @@ REP іра я
 REP іру у 
 REP іру ю 
 REP іся і 
-REP и і 
-REP ъ ' 
 REP йо ё 
 REP Йо Ё 
 REP к каў 
@@ -41,7 +53,6 @@ REP то цё
 REP ты ці 
 REP тэ фе 
 REP тэ фі 
-REP ть ць 
 REP у 'ю 
 REP ўся ў 
 REP ц дс 
@@ -49,28 +60,14 @@ REP ца ь
 REP цы ку 
 REP ць ц
 REP ш ін 
+REP ыра а 
+REP ыру у 
 REP ье а 
 REP ьг ы 
 REP ьі ы 
 REP эй оў 
 REP яль й 
 REP яў й 
-MAP 15
-MAP c с
-MAP i і
-MAP а о
-MAP а э
-MAP е ё
-MAP е я
-MAP з с
-MAP о а
-MAP т ф
-MAP т ц
-MAP у ў
-MAP ы і
-MAP э а
-MAP э е
-MAP я е
 BREAK 2
 BREAK -
 BREAK –
@@ -847,13 +844,15 @@ SFX n ць юць [аеіыэя]ць
 SFX n уць е [мн]уць 
 SFX n сці е сці 
 SFX n сці юць сці 
-SFX k Y 10
+SFX k Y 12
 SFX k іць ь [злмнсц]іць 
 SFX k іць ьце [злмнсц]іць 
 SFX k віць ў віць 
 SFX k віць ўце віць 
 SFX k іць й [аео]іць 
 SFX k іць йце [аео]іць 
+SFX k іць 0 [б]іць 
+SFX k іць це [б]іць 
 SFX k ыць 0 [жрчш]ыць 
 SFX k ыць це [жрчш]ыць 
 SFX k ець ь [знс]ець 
