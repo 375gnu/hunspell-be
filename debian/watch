@@ -1,4 +1,4 @@
 version=4
 opts="searchmode=plain" \
-https://api.github.com/repos/mikalai-udodau/spell-be/releases \
+https://api.github.com/repos/mikalai-udodau/spell-be/releases?per_page=1 \
 https://github.com/mikalai-udodau/spell-be/releases/download/rel-.+/hunspell-be-(.+).zip\b
