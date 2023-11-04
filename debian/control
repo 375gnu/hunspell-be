@@ -6,7 +6,7 @@ Build-Depends: debhelper-compat (= 12),
                convert-bdic
 Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
 Standards-Version: 4.4.0
-Homepage: http://spell-be.sourceforge.net/
+Homepage: https://github.com/mikalai-udodau/spell-be/
 
 Package: hunspell-be
 Architecture: all
