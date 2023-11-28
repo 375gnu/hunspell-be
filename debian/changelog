@@ -9,8 +9,17 @@ hunspell-be (0.60-1) UNRELEASED; urgency=medium
   [ Hleb Valoshka ]
   * Update d/watch to return only the latest release
   * New upstream version 0.60
+  * d/control: update upstream address
+  * d/copyright: update copyright information
+  * d/control: remove Conflicts: openoffice.org
+  * d/control: bump version to 4.6.2 (no changes)
+  * d/control: bump debhelper-compat version to 13
+  * d/control: add Rules-Requires-Root: no
+  * Add debian/upstream/metadata
+  * d/control: add Vcs-* fields
+  * d/copyright: add Upstream Contact and Licenses
 
- -- Hleb Valoshka <375gnu@gmail.com>  Sat, 04 Nov 2023 11:45:36 +0200
+ -- Hleb Valoshka <375gnu@gmail.com>  Tue, 28 Nov 2023 23:08:53 +0200
 
 hunspell-be (0.59-1) unstable; urgency=medium
 
