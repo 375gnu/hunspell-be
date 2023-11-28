@@ -1,5 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: hunspell-be
+Upstream-Contact: Mikalai Udodau <mikalai.udodau@gmail.com>
+Licenses: CC-BY-SA
 Source: https://github.com/mikalai-udodau/spell-be/
 
 Files: *
