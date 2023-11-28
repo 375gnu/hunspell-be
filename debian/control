@@ -8,6 +8,8 @@ Build-Depends-Indep: dictionaries-common-dev (>= 1.10.5)
 Standards-Version: 4.6.2
 Homepage: https://github.com/mikalai-udodau/spell-be/
 Rules-Requires-Root: no
+Vcs-Git: https://github.com/375gnu/hunspell-be.git
+Vcs-Browser: https://github.com/375gnu/hunspell-be
 
 Package: hunspell-be
 Architecture: all
