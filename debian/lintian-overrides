@@ -1,0 +1,2 @@
+# This is a Lintian false positive based on the -be extension.  Dictionaries should be in text.
+hunspell-be: wrong-section-according-to-package-name text => localization

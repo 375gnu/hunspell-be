@@ -1,4 +1,4 @@
-hunspell-be (0.60-1) UNRELEASED; urgency=medium
+hunspell-be (0.60-1) unstable; urgency=medium
 
   [ Soren Stoutner ]
   * debian/control: Build-depends on convert-bdic. (Closes: #1020480)
