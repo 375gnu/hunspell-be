@@ -1,9 +1,11 @@
 hunspell-be (0.60-1) unstable; urgency=medium
 
   [ Soren Stoutner ]
-  * debian/control: Build-depends on convert-bdic. (Closes: #1020480)
-  * debian/rules: Build and clean the .bdic binary dictionary file.
-  * debian/hunspell-be.install: Install the .bdic binary dictionary to
+  * Add d/lintian-overrides: override
+    wrong-section-according-to-package-name false positive.
+  * d/control: Build-depends on convert-bdic. (Closes: #1020480)
+  * d/rules: Build and clean the .bdic binary dictionary file.
+  * d/hunspell-be.install: Install the .bdic binary dictionary to
     /usr/share/hunspell-bdic/.
 
   [ Hleb Valoshka ]
