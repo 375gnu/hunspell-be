@@ -1,16 +1,26 @@
-hunspell-be (0.60-1) UNRELEASED; urgency=medium
+hunspell-be (0.60-1) unstable; urgency=medium
 
   [ Soren Stoutner ]
   * debian/control: Build-depends on convert-bdic. (Closes: #1020480)
   * debian/rules: Build and clean the .bdic binary dictionary file.
   * debian/hunspell-be.install: Install the .bdic binary dictionary to
     /usr/share/hunspell-bdic/.
+  * Add lintian override for wrong-section-according-to-package-name.
 
   [ Hleb Valoshka ]
-  * Update d/watch to return only the latest release
-  * New upstream version 0.60
+  * Update d/watch to return only the latest release.
+  * New upstream version 0.60.
+  * d/control: update upstream address.
+  * d/copyright: update copyright information.
+  * d/control: remove Conflicts: openoffice.org.
+  * d/control: bump version to 4.6.2 (no changes).
+  * d/control: bump debhelper-compat version to 13.
+  * d/control: add Rules-Requires-Root: no.
+  * Add debian/upstream/metadata.
+  * d/control: add Vcs-* fields.
+  * d/copyright: add Upstream-Contact and Licenses.
 
- -- Hleb Valoshka <375gnu@gmail.com>  Sat, 04 Nov 2023 11:45:36 +0200
+ -- Hleb Valoshka <375gnu@gmail.com>  Thu, 30 Nov 2023 00:23:04 +0200
 
 hunspell-be (0.59-1) unstable; urgency=medium
 
